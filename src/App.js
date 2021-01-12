@@ -13,7 +13,7 @@ import {Component} from "react";
 const styles = theme => ({
   root: {
     width: '100%',
-    marginTop: theme.spacing.unit * 3,
+    marginTop: theme.spacing(3),
     overflowX: 'auto'
 
   },
@@ -23,68 +23,57 @@ const styles = theme => ({
 })
 
 
-
-const customer = [{
-        'id':'1',
-        'image':'https://placeimg.com/64/64/1',
-        'name': 'jone',
-        'birthday': '20083229',
-        'gender': 'male',
-        'job': 'student'
-
-    },{
-        'id':'2',
-        'image':'https://placeimg.com/64/64/2',
-        'name': 'tom',
-        'birthday': '20083231',
-        'gender': 'female',
-        'job': 'student'
-
-    },{
-        'id':'3',
-        'image':'https://placeimg.com/64/64/3',
-        'name': 'lee',
-        'birthday': '20083230',
-        'gender': 'male',
-        'job': 'teacher'
-
-    }
-    ]
-
 class App extends Component{
-    render(){
-      const {classes} = this.props
+  state = {
+    customer: ""
+  }
 
-      return(
-         <Paper className={classes.root}>
-           <Table className={classes.table}>
-              <TableHead>
-                <TableCell>이름</TableCell>
-                <TableCell>이미지</TableCell>
-                <TableCell>생일</TableCell>
-                <TableCell>성별</TableCell>
-                <TableCell>직업</TableCell>
 
-              </TableHead>
-              <TableBody>
-                {
-                  customer.map(i => {
-                    return(
-                      <Customer
-                          key={i.id}
-                          name={i.name}
-                          image={i.image}
-                          birthday={i.birthday}
-                          gender={i.gender}
-                          job={i.job}/>
-                    )})
-                }
-              </TableBody>
-           </Table>
-         </Paper>
+  componentDidMount() {
+    console.log("componentDidMount")
+    this.callApi()
+      .then(res => this.setState({customer: res}))
+      .catch(err => console.log(err))
+  }
 
-        )
-    }
+  callApi = async () => {
+    const response = await fetch('http://localhost:5000/api/customers')
+    console.log("body " + JSON.stringify(response))
+
+    const body = await response.json()
+    return body
+  }
+
+  render(){
+    const {classes} = this.props
+    return(
+       <Paper className={classes.root}>
+
+         <Table className={classes.table}>
+            <TableHead>
+              <TableCell>이름</TableCell>
+              <TableCell>이미지</TableCell>
+              <TableCell>생일</TableCell>
+              <TableCell>성별</TableCell>
+              <TableCell>직업</TableCell>
+            </TableHead>
+
+            <TableBody>
+              { this.state.customer? this.state.customer.map(i => {
+                  return(
+                    <Customer
+                        key={i.id}
+                        name={i.name}
+                        image={i.image}
+                        birthday={i.birthday}
+                        gender={i.gender}
+                        job={i.job}/>
+                  )}) : ""}
+            </TableBody>
+         </Table>
+       </Paper>
+      )
+  }
 
 }
 
