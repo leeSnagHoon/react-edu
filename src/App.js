@@ -1,6 +1,7 @@
-import logo from './image/iconfinder_Education_flat-07_6771576.png';
 import './App.css';
-import Customer from "./Customer";
+import Customer from "./components/Customer";
+import CustomerAdd from "./components/CustomerAdd";
+
 import TableHead from "@material-ui/core/TableHead"
 import TableBody from "@material-ui/core/TableBody"
 import TableRow from "@material-ui/core/TableRow"
@@ -42,7 +43,7 @@ class App extends Component{
   }
 
   callApi = async () => {
-    const response = await fetch('http://localhost:5000/api/customers')
+    const response = await fetch('http://localhost:8081/api/customers')
     console.log("body " + JSON.stringify(response))
 
     const body = await response.json()
@@ -57,40 +58,43 @@ class App extends Component{
   render(){
     const {classes} = this.props
     return(
-       <Paper className={classes.root}>
+      <div>
+         <Paper className={classes.root}>
 
-         <Table className={classes.table}>
-            <TableHead>
-              <TableCell>이름</TableCell>
-              <TableCell>이미지</TableCell>
-              <TableCell>생일</TableCell>
-              <TableCell>성별</TableCell>
-              <TableCell>직업</TableCell>
-            </TableHead>
+           <Table className={classes.table}>
+              <TableHead>
+                <TableCell>이름</TableCell>
+                <TableCell>이미지</TableCell>
+                <TableCell>생일</TableCell>
+                <TableCell>성별</TableCell>
+                <TableCell>직업</TableCell>
+              </TableHead>
 
-            <TableBody>
-              { this.state.customer? this.state.customer.map(i => {
-                  return(
-                    <Customer
-                        key={i.id}
-                        name={i.name}
-                        image={i.image}
-                        birthday={i.birthday}
-                        gender={i.gender}
-                        job={i.job}/>
-                  )}) :
-                <TableRow>
-                  <TableCell colSpan={6} align={"center"}>
-                  {<CircularProgress />
-                    /*<CircularProgress className={classes.progress} variant="determinate" value={this.state.completed}></CircularProgress>*/
-                  }
-                  </TableCell>
-                </TableRow>
+              <TableBody>
+                { this.state.customer? this.state.customer.map(i => {
+                    return(
+                      <Customer
+                          key={i.id}
+                          name={i.name}
+                          image={i.image}
+                          birthday={i.birthday}
+                          gender={i.gender}
+                          job={i.job}/>
+                    )}) :
+                  <TableRow>
+                    <TableCell colSpan={6} align={"center"}>
+                    {<CircularProgress />
+                      /*<CircularProgress className={classes.progress} variant="determinate" value={this.state.completed}></CircularProgress>*/
+                    }
+                    </TableCell>
+                  </TableRow>
 
-              }
-            </TableBody>
-         </Table>
-       </Paper>
+                }
+              </TableBody>
+           </Table>
+         </Paper>
+        <CustomerAdd/>
+        </div>
       )
   }
 
