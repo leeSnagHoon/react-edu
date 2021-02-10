@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a81883f-3eb1-4b11-a221-dd2a99dd26b4" name="Default Changelist" comment="add databaseConnect" />
+    <list default="true" id="7a81883f-3eb1-4b11-a221-dd2a99dd26b4" name="Default Changelist" comment="add databaseConnect">
+      <change afterPath="$PROJECT_DIR$/client/src/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/CustomerAdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Customer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,11 +22,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1mjTkajCp5JVucG41BJE0S0uw9u" />
@@ -28,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -36,6 +49,11 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/components" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,7 +76,18 @@
       <workItem from="1611875234023" duration="5316000" />
       <workItem from="1611898941018" duration="3610000" />
       <workItem from="1612311822690" duration="1860000" />
-      <workItem from="1612483184049" duration="725000" />
+      <workItem from="1612483184049" duration="4042000" />
+      <workItem from="1612494949368" duration="268000" />
+      <workItem from="1612499970370" duration="1537000" />
+      <workItem from="1612505244723" duration="22000" />
+      <workItem from="1612508951188" duration="1361000" />
+      <workItem from="1612745049281" duration="5751000" />
+      <workItem from="1612755539077" duration="1525000" />
+      <workItem from="1612759866256" duration="5338000" />
+      <workItem from="1612827125218" duration="4368000" />
+      <workItem from="1612845141931" duration="1159000" />
+      <workItem from="1612913300061" duration="2043000" />
+      <workItem from="1612916744146" duration="1317000" />
     </task>
     <task id="LOCAL-00001" summary="0112">
       <created>1610417968882</created>
@@ -95,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611881530396</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add databaseConnect">
+      <created>1612484469289</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612484469290</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

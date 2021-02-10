@@ -13,6 +13,9 @@
 # production
 /build
 
+# 업로드파일
+/upload
+
 # misc
 .DS_Store
 .env.local
