@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a81883f-3eb1-4b11-a221-dd2a99dd26b4" name="Default Changelist" comment="add databaseConnect">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7a81883f-3eb1-4b11-a221-dd2a99dd26b4" name="Default Changelist" comment="add databaseConnect" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,14 +10,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1mjTkajCp5JVucG41BJE0S0uw9u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -30,19 +36,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src" />
+      <recent name="$PROJECT_DIR$/client/src/components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database" />
       <recent name="$PROJECT_DIR$/client/src/components" />
     </key>
   </component>
@@ -79,6 +97,43 @@
       <workItem from="1612845141931" duration="1159000" />
       <workItem from="1612913300061" duration="2043000" />
       <workItem from="1612916744146" duration="1657000" />
+      <workItem from="1612918473479" duration="671000" />
+      <workItem from="1612920906363" duration="159000" />
+      <workItem from="1612921410083" duration="10280000" />
+      <workItem from="1613346452920" duration="141000" />
+      <workItem from="1613363507298" duration="62000" />
+      <workItem from="1613363609772" duration="5212000" />
+      <workItem from="1613443911953" duration="11812000" />
+      <workItem from="1613520481516" duration="19062000" />
+      <workItem from="1613607648442" duration="15604000" />
+      <workItem from="1613633846644" duration="5067000" />
+      <workItem from="1613691651942" duration="5215000" />
+      <workItem from="1613720575958" duration="981000" />
+      <workItem from="1614051187696" duration="131000" />
+      <workItem from="1614064559578" duration="3733000" />
+      <workItem from="1614077844865" duration="385000" />
+      <workItem from="1614124188493" duration="4041000" />
+      <workItem from="1614129614428" duration="11092000" />
+      <workItem from="1614153850370" duration="423000" />
+      <workItem from="1614209754667" duration="12964000" />
+      <workItem from="1614295892682" duration="6571000" />
+      <workItem from="1614302710398" duration="8133000" />
+      <workItem from="1614650531293" duration="2458000" />
+      <workItem from="1614672159044" duration="119000" />
+      <workItem from="1614733015458" duration="1813000" />
+      <workItem from="1614736122703" duration="17905000" />
+      <workItem from="1614815708292" duration="14625000" />
+      <workItem from="1614837709283" duration="7268000" />
+      <workItem from="1614904000039" duration="2094000" />
+      <workItem from="1614907440161" duration="5510000" />
+      <workItem from="1614942423833" duration="39000" />
+      <workItem from="1614942464375" duration="143000" />
+      <workItem from="1614942842885" duration="432000" />
+      <workItem from="1615253223924" duration="4531000" />
+      <workItem from="1615270261383" duration="436000" />
+      <workItem from="1615270703529" duration="6223000" />
+      <workItem from="1615278782260" duration="797000" />
+      <workItem from="1615334013136" duration="1908000" />
     </task>
     <task id="LOCAL-00001" summary="0112">
       <created>1610417968882</created>
@@ -129,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612918361916</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add databaseConnect">
+      <created>1612918738905</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1612918738905</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,12 +203,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -160,6 +227,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="0112" />
     <MESSAGE value="add databaseConnect" />
     <option name="LAST_COMMIT_MESSAGE" value="add databaseConnect" />
